@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Visa kart</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+
+  <div class="container container-wrapper">
+    <div class="decoration-wrapper">
+      <span class="decoration decoration-start"></span>
+      <span class="decoration decoration-center"></span>
+      <span class="decoration decoration-last"></span>
+    </div><!-- decoration-wrapper -->
+
+    <h1 class="title">payment method</h1>
+
+    <form class="cards-form" action="https://echo.htmlacademy.ru" method="GET">
+      <label class="cards-label cards-label-visa">
+        <input class="input visually-hidden" type="radio" name="cards" value="visa">
+        <span class="cards-name">VISA</span>
+      </label>
+
+      <label class="cards-label cards-label-mastercard">
+        <input class="input visually-hidden" type="radio" name="cards" value="mastercard">
+        <span class="cards-name">MASTERCARD</span>
+      </label>
+
+      <label class="cards-label cards-label-maestro">
+        <input class="input visually-hidden" type="radio" name="cards" value="maestro">
+        <span class="cards-name">MAESTRO</span>
+      </label>
+
+      <button class="button" type="submit">NEXT STEP</button>
+    </form>
+  </div><!-- container container-wrapper -->
+
+</body>
+</html>
